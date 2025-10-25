@@ -44,5 +44,5 @@ jobs:
         with:
           databricks-host: ${{ env.DATABRICKS_HOST }}
           databricks-token: ${{ env.DATABRICKS_TOKEN }}
-          local-path: /home/runner/work/DataAnalytics/DataAnalytics/
-          remote-path: /Workspace/Users/adb_adm_01@outlook.com
+          local-path: /home/runner/work/Food_Pricing_Pipeline/
+          remote-path: /Workspace/Users/alisasu9795@gmail.com
