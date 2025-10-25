@@ -28,8 +28,8 @@ jobs:
       - name: Set Environment Variables
         run: |
           if [ "${{ github.event.inputs.environment }}" = "prd" ]; then
-            echo "DATABRICKS_HOST=<DatabricksWorkSpaceURL>" >> $GITHUB_ENV
-            echo "DATABRICKS_TOKEN=<PersonalAccessToken>" >> $GITHUB_ENV
+            echo "DATABRICKS_HOST=https://adb-820813345243236.16.azuredatabricks.net" >> $GITHUB_ENV
+            echo "DATABRICKS_TOKEN=dapi6a245397531b5912b62180c24d5ec405" >> $GITHUB_ENV
           else
             echo "DATABRICKS_HOST=<DatabricksWorkSpaceURL>" >> $GITHUB_ENV
             echo "DATABRICKS_TOKEN=<PersonalAccessToken>" >> $GITHUB_ENV
